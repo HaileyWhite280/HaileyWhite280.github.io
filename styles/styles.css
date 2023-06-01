@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27ae60;
+  --color-secondary: #7FDAFF;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -364,11 +364,20 @@ section {
 .about-stats .progress-bars .progress-bar .progress-container .progress .csharp {
   width: 90%;
 }
+.about-stats .progress-bars .progress-bar .progress-container .progress .cplus {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .java {
+  width: 70%;
+}
 .about-stats .progress-bars .progress-bar .progress-container .progress .unity {
   width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-container .progress .unreal {
   width: 20%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .mayablender {
+  width: 75%;
 }
 
 .stat-title {
