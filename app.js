@@ -1,6 +1,13 @@
+//instead of switching between different htmls I have everything sectioned out in sections
 const sections = document.querySelectorAll('.section');
+
+//container of control buttons
 const sectBtns = document.querySelectorAll('.controls');
+
+//individual control buttons
 const sectBtn = document.querySelectorAll('.control');
+
+//all sections container
 const allSections = document.querySelector('.main-content');
 
 function PageTransitions() {
@@ -13,6 +20,7 @@ function PageTransitions() {
         })
     }
 
+    //change classname for the active & inactive buttons
     allSections.addEventListener('click', (e) => {
         const id = e.target.dataset.id;
         if (id) {
@@ -30,6 +38,7 @@ function PageTransitions() {
         }
     })
 
+    //lightmode stuffs
     const themeBTN = document.querySelector(".theme-btn");
     themeBTN.addEventListener('click', () => {
         let element = document.body;
@@ -37,4 +46,5 @@ function PageTransitions() {
     })
 }
 
+//calls page transitions
 PageTransitions();
